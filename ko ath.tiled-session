@@ -1,0 +1,41 @@
+{
+    "activeFile": "assets/doodle land war.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "assets"
+    ],
+    "fileStates": {
+        "assets/doodle land war.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 2380.30303030303,
+                "y": 3033.3333333333335
+            }
+        },
+        "assets/spritesheet_default.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/comma/Documents/Python Projects/kosta/assets/kenney_scribble-platformer/Spritesheet",
+    "map.height": 100,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 100,
+    "openFiles": [
+        "assets/spritesheet_default.tsx",
+        "assets/doodle land war.tmx"
+    ],
+    "project": "ko ath.tiled-project",
+    "recentFiles": [
+        "assets/spritesheet_default.tsx",
+        "assets/doodle land war.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
