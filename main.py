@@ -3,6 +3,10 @@ import os
 
 
 this_folder = os.path.dirname(__file__)
+FRICTION = 1.0
+PLAYER_MASS = 2.0
+MAX_SPEED = 200
+
 
 #
 #
@@ -52,6 +56,14 @@ class GameView(arcade.View):
         self.keys = set()
 
         self.camera = arcade.Camera2D()
+        self.physics=arcade.PymunkPhysicsEngine()
+        self.physics.add_sprite(
+            self.player, 
+            PLAYER_MASS,
+            FRICTION,
+            moment_of_inertia=arcade.PymunkPhysicsEngine.MOMENT_INF,
+            body_type=arcade.PymunkPhysicsEngine.DYNAMIC
+        )
         
     #
     #
